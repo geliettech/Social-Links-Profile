@@ -95,7 +95,11 @@ footer {
 }
 @media (max-width: 375px){
   main .main-section {
-    height: 100%;
-    margin: 18px;
+    background-color: var(--Neutral-darkGrey);
+    width: 80%;
+    margin: 0 auto;
+    height: 90%;
+    border-radius: 12px;
+    padding: 18px 32px;
   }
 }
