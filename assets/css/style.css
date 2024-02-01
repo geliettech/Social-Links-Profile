@@ -93,7 +93,7 @@ main .main-section .main-content{
 }
 @media(max-width: 375px){
   main .main-section{
-    height: auto;
+    /* height: auto; */
     padding: 10px;
   }
 }
