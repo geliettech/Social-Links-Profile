@@ -27,23 +27,22 @@ body {
   background-color: var(--Neutral-offBlack);
   text-align: center;
 }
-main .main-section{
-  height: 96vh;
+main{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   font-size: 14px;
+  color: var(--Neutral-White);
 }
-main .main-section .main-content{
+main .main-section {
   background-color: var(--Neutral-darkGrey);
   width: 345px;
   border-radius: 12px;
   padding: 18px 32px;
 }
 .intro-section{
-  color: var(--Neutral-White);
-}
-.intro-section>div{
  line-height: 2rem;
 }
 .intro-section img {
@@ -55,14 +54,13 @@ main .main-section .main-content{
   font-size: 24px;
   font-family: Inter-Bold;
 }
-.intro-section p{
+.intro-section .location{
   color: var(--Primary-color);
   font-family: Inter-SemiBold;
 }
 .intro-section .profession{
   font-family: Inter-Regular;
   margin: 12px 0 0;
-  line-height: 2rem;
 }
 
 .social-media-section a {
@@ -82,17 +80,19 @@ main .main-section .main-content{
   cursor: pointer;
   transition: 1s;
 }
+footer{
+  margin-top: 18px;
+}
 .attribution {
   font-size: 10px;
   text-align: center;
   font-family: Inter-Regular;
-  color: var(--Neutral-White);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media(max-width: 375px){
+/* @media(max-width: 375px){
   main .main-section{
     padding: 18px;
   }
-}
+} */
