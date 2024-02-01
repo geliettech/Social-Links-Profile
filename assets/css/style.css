@@ -10,12 +10,12 @@
   font-family: Inter-Bold;
   src: url(../fonts/static/Inter-Bold.ttf);
 }
-:root{
+:root {
   --Primary-color: hsl(75, 94%, 57%);
-  --Neutral-White:  hsl(0, 0%, 100%);
-  --Neutral-Grey:  hsl(0, 0%, 20%);
-  --Neutral-darkGrey:  hsl(0, 0%, 12%);
-  --Neutral-offBlack:  hsl(0, 0%, 8%);
+  --Neutral-White: hsl(0, 0%, 100%);
+  --Neutral-Grey: hsl(0, 0%, 20%);
+  --Neutral-darkGrey: hsl(0, 0%, 12%);
+  --Neutral-offBlack: hsl(0, 0%, 8%);
 }
 * {
   margin: 0;
@@ -27,7 +27,7 @@ body {
   background-color: var(--Neutral-offBlack);
   text-align: center;
 }
-main{
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,29 +42,29 @@ main .main-section {
   border-radius: 12px;
   padding: 18px 32px;
 }
-.intro-section{
- line-height: 2rem;
+.intro-section {
+  line-height: 2rem;
 }
 .intro-section img {
   height: 72px;
   width: 72px;
   border-radius: 50%;
 }
-.intro-section h1{
+.intro-section h1 {
   font-size: 24px;
   font-family: Inter-Bold;
 }
-.intro-section .location{
+.intro-section .location {
   color: var(--Primary-color);
   font-family: Inter-SemiBold;
 }
-.intro-section .profession{
+.intro-section .profession {
   font-family: Inter-Regular;
   margin: 12px 0 0;
 }
 
 .social-media-section a {
- background-color: var(--Neutral-Grey);
+  background-color: var(--Neutral-Grey);
   margin: 12px 0;
   border-radius: 8px;
   padding: 12px 0;
@@ -74,13 +74,14 @@ main .main-section {
   color: var(--Neutral-White);
 }
 
-.social-media-section a:active, .social-media-section a:hover{
+.social-media-section a:active,
+.social-media-section a:hover {
   background-color: var(--Primary-color);
   color: var(--Neutral-offBlack);
   cursor: pointer;
   transition: 1s;
 }
-footer{
+footer {
   margin-top: 18px;
 }
 .attribution {
