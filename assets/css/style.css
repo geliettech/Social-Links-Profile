@@ -27,29 +27,27 @@ body {
   background-color: var(--Neutral-offBlack);
 }
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  padding: 18px;
   text-align: center;
-  height: 100vh;
-  font-size: 14px;
   color: var(--Neutral-White);
 }
 main .main-section {
   background-color: var(--Neutral-darkGrey);
-  width: 345px;
-  height: auto;
-  border-radius: 12px;
+  width: 30%;
+  margin: 16px auto;
   padding: 18px 32px;
+  font-size: 14px;
+  border-radius: 12px;
 }
 .intro-section {
   line-height: 2rem;
 }
-.intro-section img {
-  height: 72px;
-  width: 72px;
+.intro-section .avatar {
+  height: 94px;
+  width: 94px;
   border-radius: 50%;
+  border: 2px solid var(--Primary-color);
 }
 .intro-section h1 {
   font-size: 24px;
@@ -61,20 +59,22 @@ main .main-section {
 }
 .intro-section .profession {
   font-family: Inter-Regular;
-  margin: 12px 0 0;
+  margin: 8px 0 0;
 }
-
+.social-media-section {
+  margin-top: 18px;
+}
 .social-media-section a {
+  display: block;
   background-color: var(--Neutral-Grey);
   margin: 12px 0;
-  border-radius: 8px;
   padding: 12px 0;
-  display: block;
-  font-family: Inter-SemiBold;
+  border-radius: 8px;
   text-decoration: none;
   color: var(--Neutral-White);
+  background-color: var(--Neutral-Grey);
+  font-family: Inter-SemiBold;
 }
-
 .social-media-section a:active,
 .social-media-section a:hover {
   background-color: var(--Primary-color);
@@ -83,23 +83,53 @@ main .main-section {
   transition: 0.6s;
 }
 footer {
-  margin: 28px 0 8px;
+  margin: 26px 0 0;
 }
 .attribution {
-  font-size: 10px;
-  text-align: center;
+  font-size: 11px;
   font-family: Inter-Regular;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media (max-width: 375px){
+/* on large and medium laptop screen  */
+@media (min-width: 1020px) {
   main .main-section {
-    background-color: var(--Neutral-darkGrey);
+    width: 30%;
+  }
+}
+@media (max-width: 1019px) and (min-width: 769px) {
+  main .main-section {
+    width: 40%;
+  }
+  main .main-section {
+    font-size: 12px;
+  }
+}
+/* on tablet screen  */
+@media (max-width: 768px) and (min-width: 426px) {
+  main .main-section {
     width: 80%;
-    margin: 0 auto;
-    height: 90%;
-    border-radius: 12px;
-    padding: 18px 32px;
+  }
+  main .main-section {
+    font-size: 12px;
+  }
+}
+/* on large mobile screen  */
+@media (max-width: 425px) and (min-width: 376px) {
+  main .main-section {
+    width: 98%;
+  }
+  main .main-section {
+    font-size: 12px;
+  }
+}
+/* on medium and small mobile screen  */
+@media (max-width: 375px) {
+  main .main-section {
+    width: 98%;
+  }
+  main .main-section {
+    font-size: 12px;
   }
 }
