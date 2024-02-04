@@ -35,7 +35,7 @@ main {
 main .main-section {
   background-color: var(--Neutral-darkGrey);
   width: 30%;
-  margin: 16px auto;
+  margin: 18px auto;
   padding: 18px 32px;
   font-size: 14px;
   border-radius: 12px;
