@@ -26,14 +26,13 @@ Your users should be able to:
 
 ### Screenshot
 
-- Desktop View: ![](./design/solution/desktop-view.png)
-- Mobile View: ![](./design/solution/mobile-view.png)
-- Active States: ![](./design/solution/active-states.mp4)
+- ![Desktop View](./design/solution/desktop-view.png)
+- ![Mobile View](./design/solution/mobile-view.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/julietoge/Social-Links-Profile)
-- Live Site URL: [Add live site URL here](https://julietoge.github.io/Social-Links-Profile/)
+- [Solution URL](https://github.com/julietoge/Social-Links-Profile)
+- [Live Site URL](https://julietoge.github.io/Social-Links-Profile/)
 
 ## My process
 
@@ -42,15 +41,12 @@ Your users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - media query
-- Web Fonts
+- CSS Web Fonts
 
 ### What I learned
 
 ```css
-Some CSS code I'm proud of
-* CSS Web Fonts
-
-@font-face {
+CSS Web Fonts using @font-face rule. @font-face {
   font-family: Inter-Regular;
   src: url(../fonts/static/Inter-Regular.ttf);
 }
@@ -61,7 +57,7 @@ Some CSS code I'm proud of
 
 ### Useful resources
 
-- [W3school](https://www.example.com) - This is an amazing website which helped me finally understand CSS Web Fonts. I'd recommend it to anyone still learning this concept.
+- [W3school](https://www.w3schools.com/css/css3_fonts.asp) - This is an amazing website which helped me finally understand CSS Web Fonts. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
