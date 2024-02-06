@@ -6,8 +6,9 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Solution](#Solution)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -24,20 +25,18 @@ Your users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Solution
+#### Screenshot
+- Desktop View: ![](./design/solution/desktop-view.png)
+- Mobile View: ![](./design/solution/mobile-view.png)
 
-- ![Desktop View](./design/solution/desktop-view.png)
-- ![Mobile View](./design/solution/mobile-view.png)
+#### Links
 
-### Links
-
-- [Solution URL](https://github.com/julietoge/Social-Links-Profile)
-- [Live Site URL](https://julietoge.github.io/Social-Links-Profile/)
+- Solution URL: [Social-Links-Profile](https://github.com/julietoge/Social-Links-Profile)
+- Live Site URL: [github.io/Social-Links-Profile](https://julietoge.github.io/Social-Links-Profile/)
 
 ## My process
-
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - media query
@@ -46,7 +45,8 @@ Your users should be able to:
 ### What I learned
 
 ```css
-CSS Web Fonts using @font-face rule. @font-face {
+CSS Web Fonts using @font-face rule:
+@font-face {
   font-family: Inter-Regular;
   src: url(../fonts/static/Inter-Regular.ttf);
 }
