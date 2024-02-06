@@ -7,8 +7,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Solution](#Solution)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -25,15 +23,6 @@ Your users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Solution
-
-#### Screenshot
-
-- Desktop View:
-  ![](./design/solution/desktop-view.png)
-- Mobile View:
-  ![](./design/solution/mobile-view.png)
-
-#### Links
 
 - Solution URL: [Social-Links-Profile](https://github.com/julietoge/Social-Links-Profile)
 - Live Site URL: [github.io/Social-Links-Profile](https://julietoge.github.io/Social-Links-Profile/)
