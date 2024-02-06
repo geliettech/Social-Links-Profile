@@ -26,9 +26,13 @@ Your users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Solution
+
 #### Screenshot
-- Desktop View: ![](./design/solution/desktop-view.png)
-- Mobile View: ![](./design/solution/mobile-view.png)
+
+- Desktop View:
+  ![](./design/solution/desktop-view.png)
+- Mobile View:
+  ![](./design/solution/mobile-view.png)
 
 #### Links
 
@@ -36,7 +40,9 @@ Your users should be able to:
 - Live Site URL: [github.io/Social-Links-Profile](https://julietoge.github.io/Social-Links-Profile/)
 
 ## My process
+
 ### Built with
+
 - Semantic HTML5 markup
 - CSS custom properties
 - media query
@@ -45,8 +51,7 @@ Your users should be able to:
 ### What I learned
 
 ```css
-CSS Web Fonts using @font-face rule:
-@font-face {
+cssWeb Fonts using @font-face rule: @font-face {
   font-family: Inter-Regular;
   src: url(../fonts/static/Inter-Regular.ttf);
 }
