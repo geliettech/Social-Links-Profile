@@ -39,7 +39,8 @@ Your users should be able to:
 ### What I learned
 
 ```css
-cssWeb Fonts using @font-face rule: @font-face {
+cssWeb Fonts using @font-face rule: 
+@font-face {
   font-family: Inter-Regular;
   src: url(../fonts/static/Inter-Regular.ttf);
 }
