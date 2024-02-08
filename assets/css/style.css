@@ -29,10 +29,14 @@
 body {
   max-width: 100%;
   background-color: var(--Neutral-offBlack);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* Styling for the main content area */
 main {
-  width: 100%;
+  min-width: 28%;
   padding: 18px;
   text-align: center;
   color: var(--Neutral-White);
@@ -40,18 +44,17 @@ main {
 /* Styling for the main section within main */
 main .main-section {
   background-color: var(--Neutral-darkGrey);
-  width: 30%;
-  margin: 18px auto;
-  padding: 18px 22px;
+  padding: 18px;
   font-size: 14px;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 /* Styling for the intro section */
 .intro-section {
-  line-height: 2rem;
+  line-height: 1.6rem;
 }
 
 /* Styling for the avatar within the intro section */
+
 .intro-section .avatar {
   height: 94px;
   width: 94px;
@@ -59,9 +62,8 @@ main .main-section {
   border: 2px solid var(--Primary-color);
 }
 /* Styling for the h1 element within the intro section */
-.intro-section h1 {
+.intro-section h3 {
   font-family: Inter-Bold;
-  font-size: 14px;
 }
 /* Styling for the location within the intro section */
 .intro-section .location {
@@ -109,34 +111,4 @@ footer {
 /* Styling for links within attribution */
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-/* Media queries for different screen sizes */
-/* on large and medium laptop screen  */
-@media (min-width: 1020px) {
-  main .main-section {
-    width: 30%;
-  }
-}
-@media (max-width: 1019px) and (min-width: 769px) {
-  main .main-section {
-    width: 42%;
-  }
-}
-/* on tablet screen  */
-@media (max-width: 768px) and (min-width: 426px) {
-  main .main-section {
-    width: 90%;
-  }
-}
-/* on large mobile screen  */
-@media (max-width: 425px) and (min-width: 376px) {
-  main .main-section {
-    width: 100%;
-  }
-}
-/* on medium and small mobile screen  */
-@media (max-width: 375px) {
-  main .main-section {
-    width: 100%;
-  }
 }
