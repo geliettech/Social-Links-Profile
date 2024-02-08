@@ -60,7 +60,6 @@ main .main-section {
 }
 /* Styling for the h1 element within the intro section */
 .intro-section h1 {
-  font-size: 24px;
   font-family: Inter-Bold;
 }
 /* Styling for the location within the intro section */
