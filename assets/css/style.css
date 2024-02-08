@@ -121,17 +121,11 @@ footer {
   main .main-section {
     width: 40%;
   }
-  main .main-section {
-    font-size: 12px;
-  }
 }
 /* on tablet screen  */
 @media (max-width: 768px) and (min-width: 426px) {
   main .main-section {
     width: 80%;
-  }
-  main .main-section {
-    font-size: 12px;
   }
 }
 /* on large mobile screen  */
@@ -139,16 +133,10 @@ footer {
   main .main-section {
     width: 98%;
   }
-  main .main-section {
-    font-size: 12px;
-  }
 }
 /* on medium and small mobile screen  */
 @media (max-width: 375px) {
   main .main-section {
     width: 98%;
-  }
-  main .main-section {
-    font-size: 12px;
   }
 }
