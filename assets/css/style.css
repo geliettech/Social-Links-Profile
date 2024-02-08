@@ -1,3 +1,4 @@
+/* Define custom fonts */
 @font-face {
   font-family: Inter-Regular;
   src: url(../fonts/static/Inter-Regular.ttf);
@@ -10,6 +11,7 @@
   font-family: Inter-Bold;
   src: url(../fonts/static/Inter-Bold.ttf);
 }
+/* Define root variables for color */
 :root {
   --Primary-color: hsl(75, 94%, 57%);
   --Neutral-White: hsl(0, 0%, 100%);
@@ -17,21 +19,25 @@
   --Neutral-darkGrey: hsl(0, 0%, 12%);
   --Neutral-offBlack: hsl(0, 0%, 8%);
 }
+/* Reset default margin, padding, and box-sizing for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* Styling for the body element */
 body {
   max-width: 100%;
   background-color: var(--Neutral-offBlack);
 }
+/* Styling for the main content area */
 main {
   width: 100%;
   padding: 18px;
   text-align: center;
   color: var(--Neutral-White);
 }
+/* Styling for the main section within main */
 main .main-section {
   background-color: var(--Neutral-darkGrey);
   width: 30%;
@@ -40,30 +46,38 @@ main .main-section {
   font-size: 14px;
   border-radius: 12px;
 }
+/* Styling for the intro section */
 .intro-section {
   line-height: 2rem;
 }
+
+/* Styling for the avatar within the intro section */
 .intro-section .avatar {
   height: 94px;
   width: 94px;
   border-radius: 50%;
   border: 2px solid var(--Primary-color);
 }
+/* Styling for the h1 element within the intro section */
 .intro-section h1 {
   font-size: 24px;
   font-family: Inter-Bold;
 }
+/* Styling for the location within the intro section */
 .intro-section .location {
   color: var(--Primary-color);
   font-family: Inter-SemiBold;
 }
+/* Styling for the profession within the intro section */
 .intro-section .profession {
   font-family: Inter-Regular;
   margin: 8px 0 0;
 }
+/* Styling for the social media section */
 .social-media-section {
   margin-top: 18px;
 }
+/* Styling for links within the social media section */
 .social-media-section a {
   display: block;
   background-color: var(--Neutral-Grey);
@@ -75,6 +89,7 @@ main .main-section {
   background-color: var(--Neutral-Grey);
   font-family: Inter-SemiBold;
 }
+/* Styling for active and hover states of links within the social media section */
 .social-media-section a:active,
 .social-media-section a:hover {
   background-color: var(--Primary-color);
@@ -82,16 +97,20 @@ main .main-section {
   cursor: pointer;
   transition: 0.6s;
 }
+/* Styling for the footer */
 footer {
   margin: 26px 0 0;
 }
+/* Styling for attribution */
 .attribution {
   font-size: 11px;
   font-family: Inter-Regular;
 }
+/* Styling for links within attribution */
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* Media queries for different screen sizes */
 /* on large and medium laptop screen  */
 @media (min-width: 1020px) {
   main .main-section {
