@@ -119,24 +119,24 @@ footer {
 }
 @media (max-width: 1019px) and (min-width: 769px) {
   main .main-section {
-    width: 40%;
+    width: 42%;
   }
 }
 /* on tablet screen  */
 @media (max-width: 768px) and (min-width: 426px) {
   main .main-section {
-    width: 80%;
+    width: 90%;
   }
 }
 /* on large mobile screen  */
 @media (max-width: 425px) and (min-width: 376px) {
   main .main-section {
-    width: 98%;
+    width: 100%;
   }
 }
 /* on medium and small mobile screen  */
 @media (max-width: 375px) {
   main .main-section {
-    width: 98%;
+    width: 100%;
   }
 }
