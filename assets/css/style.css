@@ -36,6 +36,7 @@ main {
   padding: 18px;
   text-align: center;
   color: var(--Neutral-White);
+  font-size: 14px;
 }
 /* Styling for the main section within main */
 main .main-section {
@@ -43,7 +44,6 @@ main .main-section {
   width: 30%;
   margin: 18px auto;
   padding: 18px 32px;
-  font-size: 14px;
   border-radius: 12px;
 }
 /* Styling for the intro section */
