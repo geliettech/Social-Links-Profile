@@ -44,7 +44,7 @@ main {
 /* Styling for the main section within main */
 main .main-section {
   background-color: var(--Neutral-darkGrey);
-  padding: 18px;
+  padding: 28px 22px;
   font-size: 14px;
   border-radius: 10px;
 }
@@ -83,7 +83,7 @@ main .main-section {
 .social-media-section a {
   display: block;
   background-color: var(--Neutral-Grey);
-  margin: 12px 0;
+  margin: 18px 0;
   padding: 12px 0;
   border-radius: 8px;
   text-decoration: none;
