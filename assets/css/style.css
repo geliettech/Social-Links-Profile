@@ -35,7 +35,7 @@ body {
 
 /* Styling for the main content area */
 main {
-  max-width: 10440px;
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,13 +45,13 @@ main {
 /* Styling for the main section within main */
 main .main-content {
   background-color: var(--Neutral-darkGrey);
-  padding: 28px 22px;
+  padding: 28px 32px;
   font-size: 14px;
   border-radius: 10px;
 }
 /* Styling for the intro section */
 .intro-section {
-  line-height: 1.6rem;
+  line-height: 2rem;
 }
 
 /* Styling for the avatar within the intro section */
@@ -61,6 +61,7 @@ main .main-content {
   width: 94px;
   border-radius: 50%;
   border: 2px solid var(--Primary-color);
+  /* margin-bottom: 8px; */
 }
 /* Styling for the h1 element within the intro section */
 .intro-section h3 {
