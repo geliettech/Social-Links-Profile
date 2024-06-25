@@ -62,7 +62,6 @@ main .main-content {
   width: 94px;
   border-radius: 50%;
   border: 2px solid var(--Primary-color);
-  /* margin-bottom: 8px; */
 }
 /* Styling for the h1 element within the intro section */
 .intro-section h3 {
