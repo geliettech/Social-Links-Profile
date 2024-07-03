@@ -24,8 +24,8 @@ Your users should be able to:
 
 ### Solution
 
-- Solution URL: [Social-Links-Profile](https://github.com/julietoge/Social-Links-Profile)
-- Live Site URL: [github.io/Social-Links-Profile](https://julietoge.github.io/Social-Links-Profile/)
+- Solution URL: [Social-Links-Profile](https://github.com/oge-dev/Social-Links-Profile)
+- Live Site URL: [github.io/Social-Links-Profile](https://oge-dev.github.io/Social-Links-Profile/)
 
 ## My process
 
@@ -56,5 +56,5 @@ cssWeb Fonts using @font-face rule:
 ## Author
 
 - Website - [OGE](https://www.uhegbu-ogechi-juliet.netlify.app.com)
-- Frontend Mentor - [@julietoge](https://www.frontendmentor.io/profile/julietoge)
-- Twitter - [@JulietJosephOge](https://twitter.com/JulietJosephOge)
+- Frontend Mentor - [@julietoge](https://www.frontendmentor.io/profile/oge-dev)
+- Twitter - [@JulietJosephOge](https://x.com/oge_dev)
