@@ -56,5 +56,5 @@ cssWeb Fonts using @font-face rule:
 ## Author
 
 - Website - [OGE](https://www.uhegbu-ogechi-juliet.netlify.app.com)
-- Frontend Mentor - [@julietoge](https://www.frontendmentor.io/profile/oge-dev)
-- Twitter - [@JulietJosephOge](https://x.com/oge_dev)
+- Frontend Mentor - [@oge-dev](https://www.frontendmentor.io/profile/oge-dev)
+- Twitter - [@oge_dev](https://x.com/oge_dev)
